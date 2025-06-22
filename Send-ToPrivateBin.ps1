@@ -151,7 +151,7 @@ function Send-ToPrivateBin {
         [ValidateSet('plaintext', 'syntaxhighlighting', 'markdown')]
         $PasteFormat = 'plaintext',
         [Parameter()][Switch]
-        $OpenDiscussion = $false,
+        $OpenDiscussion,
         [Parameter()][Switch]
         $BurnAfterReading,
         [Parameter()][String]
